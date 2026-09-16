@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "PoC demo",
   "main": "index.js",
+  "dependencies": {
+    "lodash-helper": "github:nang718ha/claude-bug1-poc-demo#feat/lodash-helper"
+  },
   "scripts": {
     "start": "node index.js"
   }
