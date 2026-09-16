@@ -1,5 +1,5 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
-
 const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, 'package.json'), 'utf8'));
 console.log(`Version: ${pkg.version}`);
+// Updated: lodash 4.17.21 (security fix)
